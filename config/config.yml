@@ -1,0 +1,11 @@
+postgres:
+    host: ${POSTGRES_HOST}
+    port: 5432
+    user: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+    postgres-db: ${POSTGRES_DB}
+
+http_server:
+    env: local
+    secret: ${SECRET}
+    port: 8000
